@@ -1,0 +1,10 @@
+a {
+  font-size:1.2em;
+  text-transform: uppercase;
+  padding:10px;
+  font-family:Rubik;
+  font-weight:500;
+  color:#fff;
+
+  z-index:100;
+}

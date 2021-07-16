@@ -1,0 +1,9 @@
+.titleContainer {
+  width:100%;
+}
+
+.titleContainer h2 {
+  padding-left:10%;
+  font-family:roboto;
+  font-size:2em;
+}
