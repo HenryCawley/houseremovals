@@ -16,6 +16,7 @@
   height:100px;
   margin-top:20px;
   margin-left:80px;
+  color:#FAE8B1;
 }
 
 .headerContainer .headerBanner .headerContact {
@@ -23,7 +24,7 @@
   flex-direction:column;
   text-align: left;
   margin-left:20%;
-  color:#fff;
+  color:#FAE8B1;
   font-family:Rubik;
   text-transform: uppercase;
   font-size:1.5em;
@@ -38,5 +39,15 @@
 .headerContainer .navigationContainer {
   display:flex;
   justify-content: space-around;
-  border-top:#FFA101 solid 1px;
+}
+
+.headerContainer .navigationContainer a {
+  display:flex;
+  flex:1;
+  justify-content:space-around;
+  text-align:center;
+}
+
+.headerContainer .navigationContainer a:hover {
+  font-size:1.3em;
 }

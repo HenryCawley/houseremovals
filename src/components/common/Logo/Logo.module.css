@@ -1,0 +1,25 @@
+.logoContainer {
+  width:100%;
+  display:flex;
+}
+
+.logoContainer .logoVanIcon {
+  width:100%;
+}
+
+.logoContainer .logoVanIcon img {
+  width:200px;
+}
+
+.
+
+
+
+.Logo {
+  color:#FAE8B1;
+  font-size:1.2em;
+  width:100%;
+  text-align: center;
+  transform:translateY(40%);
+  z-index:10;
+}

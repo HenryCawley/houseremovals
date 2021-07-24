@@ -7,6 +7,7 @@ import Footer from './components/common/Footer/Footer.jsx';
 import Home from './components/routes/Home/Home.jsx';
 import AboutUs from './components/routes/AboutUs/AboutUs.jsx';
 import HouseClearanceService from './components/routes/HouseClearanceServices/HouseClearanceServices.jsx';
+import Renovations from './components/routes/Renovations/Renovations.jsx';
 import ProbateValuations from './components/routes/ProbateValuations/ProbateValuations.jsx';
 import AreasCovered from './components/routes/AreasCovered/AreasCovered.jsx';
 import OurPrices from './components/routes/OurPrices/OurPrices.jsx';
@@ -21,7 +22,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/About-Us' exact component={AboutUs} />
           <Route path='/House-Clearance-Service' exact component={HouseClearanceService} />
-          <Route path='/Probate-Valuations' exact component={ProbateValuations} />
+          <Route path='/Renovations' exact component={Renovations} />
           <Route path='/Areas-Covered' exact component={AreasCovered} />
           <Route path='/Our-Prices' exact component={OurPrices} />
           <Route path='/Customer-Reviews' exact component={CustomerReviews} />

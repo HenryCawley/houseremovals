@@ -1,0 +1,21 @@
+.container {
+  width:80%;
+  margin-left:10%;
+  padding:20px 0px 20px 0px;
+}
+
+.container h2 {
+  font-size:1.4em;
+}
+
+.container .grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, 600px);
+  justify-content: space-around;
+  row-gap:40px;
+}
+
+.container .grid .column {
+  color:#000;
+  font-size:1.2em;
+}
