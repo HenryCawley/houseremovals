@@ -1,0 +1,37 @@
+.map {
+  display:flex;
+  width:70%;
+  max-width:1200px;
+  margin-left:15%;
+}
+
+.listContainer {
+  display:flex;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: space-between;
+}
+
+.listContainer .list {
+  text-transform:uppercase;
+  color:#000;
+  font-size:25px;
+  font-weight:500;
+}
+
+.listContainer .list .listElement {
+  display:flex;
+  height:30px;
+  align-items:center;
+  padding:10px;
+}
+
+.listContainer .list .listElement img {
+  width:25px;
+  height:30px;
+}
+
+.listContainer .list .listElement h4 {
+  margin-left:4px;
+}

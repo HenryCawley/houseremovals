@@ -8,7 +8,7 @@
   justify-content: space-around;
   color: #31525B;
   padding-top:3vh;
-  height:400px;
+  height:350px;
 }
 
 .footerContainer .footerColumns .textColumn {
@@ -18,10 +18,31 @@
   margin-left:10%;
 }
 
+.footerContainer .footerColumns .textColumn h2 {
+  font-size:2em;
+}
+
+.footerContainer .footerColumns .textColumn h3 {
+  font-size:1.7em;
+  font-weight:400;
+}
+
+
+.footerContainer .footerColumns .textColumn p {
+  font-size:1.5em;
+  font-weight:300;
+}
+
 .footerContainer .footerColumns .callback {
   flex:1;
   width:80%;
   margin-left:10%;
+  margin-top:20px;
+}
+
+.footerContainer .footerColumns .callback h2 {
+  color:#fff;
+  text-transform: uppercase;
 }
 
 .footerContainer .footerColumns .callback .callbackRequest {
@@ -36,6 +57,7 @@
 
 .footerContainer .footerColumns .callback .callbackRequest h2 {
   margin-left:10%;
+  font-size:1.2em;
 }
 
 .footerContainer .footerColumns .callback .callbackRequest .input {
@@ -44,17 +66,18 @@
   padding-left:20px;
   width:80%;
   margin-left:10%;
-  font-size:1.5em;
+  font-size:1.3em;
   text-transform:uppercase;
   border:#fff;
+  color:#000;
 }
 
 .footerContainer .footerColumns .callback .callbackRequest .button {
-  width:50%;
-  font-size:1.2em;
+  width:70%;
+  font-size:1.1em;
   padding:5px;
   text-transform:uppercase;
-  background-color:#fff;
+  background-color:#FAE8B1;
   border:#fff;
   margin:10px 0 10px 10%;
 }
@@ -64,4 +87,80 @@
   font-size: 1.3em;
   color:#fff;
   background-color: #31525B;
+  padding:10px;
+}
+
+@media (max-width: 1750px) {
+
+}
+
+@media (max-width: 1650px) {
+
+}
+
+@media (max-width: 1550px) {
+  .footerContainer .footerColumns .textColumn h2 {
+    font-size:1.5em;
+  }
+
+  .footerContainer .footerColumns .textColumn h3 {
+    font-size:1.5em;
+  }
+}
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1400px) {
+  .footerContainer .footerColumns .callback {
+    flex:1.2;
+  }
+
+  .footerContainer .footerColumns .textColumn {
+    margin-left:5%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 750px) {
+
+}
+
+@media (max-width: 700px) {
+  .footerContainer .footerColumns {
+    flex-direction:column;
+    height:auto;
+  }
+
+  .footerContainer .footerColumns .callback {
+    margin-bottom:10%;
+  }
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 500px) {
+
 }

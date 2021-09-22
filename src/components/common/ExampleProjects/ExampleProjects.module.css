@@ -1,0 +1,29 @@
+.container {
+  width:65%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#31525B;
+  padding:5px 50px 50px 50px;
+  color:#fff;
+  font-family:Raleway;
+  margin-bottom:60px;
+}
+
+.container h3 {
+  font-size:35px;
+}
+
+.container p {
+  font-size:24px;
+}
+
+.container .imageContainer {
+  display:flex;
+  width:100%;
+}
+
+.container .imageContainer img {
+  display:flex;
+  width:48%;
+  padding:1%;
+}

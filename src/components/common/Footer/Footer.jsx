@@ -6,13 +6,13 @@ function Footer() {
       <div className={classes.footerColumns}>
         <div className={classes.textColumn}>
           <h2>Recycling</h2>
-          <p>SOSORecycling prioritises recycling as much </p>
+          <p>We aim to recycle as many goods as possible, primarily through donating items to charity or by disposing responsibly</p>
         </div>
 
         <div className={classes.textColumn}>
           <h2>Environmental Agency</h2>
-          <p>SOSORecycling holds a full Environment Agency Waste Carrier licence.</p>
-          <h3>Registration No. CSDAEWQD</h3>
+          <p>North London Property Clearance and Renovations is fully insured and has a Environment Agency Waste Carrier licence.</p>
+          <h3>Registration No. CBDU8011</h3>
         </div>
 
         <div className={classes.callback}>
@@ -26,7 +26,7 @@ function Footer() {
       </div>
 
       <div className={classes.copyright}>
-        Footer
+        2021 | North London Property Clearance and Renovations Ltd
       </div>
     </div>
   );

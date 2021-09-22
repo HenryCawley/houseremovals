@@ -5,7 +5,6 @@ function Logo() {
   return(
     <div className={classes.logoContainer}>
       <div className={classes.logoVanIcon}><img src={LogoSVG}/></div>
-      <div className={classes.logoVanText}><span className={classes.logoText}>North London House Clearance and Renovations</span></div>
     </div>
   );
 };

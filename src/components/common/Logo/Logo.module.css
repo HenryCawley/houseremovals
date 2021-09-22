@@ -1,25 +1,40 @@
 .logoContainer {
-  width:100%;
+  width:600px;
   display:flex;
 }
 
-.logoContainer .logoVanIcon {
-  width:100%;
-}
 
 .logoContainer .logoVanIcon img {
-  width:200px;
+  height:100px;
 }
 
-.
 
+@media (max-width: 700px) {
+  .logoContainer {
+    width:500px;
+  }
 
+  .logoContainer .logoVanIcon img {
+    height:80px;
+  }
+}
 
-.Logo {
-  color:#FAE8B1;
-  font-size:1.2em;
-  width:100%;
-  text-align: center;
-  transform:translateY(40%);
-  z-index:10;
+@media (max-width: 600px) {
+  .logoContainer {
+    width:400px;
+  }
+
+  .logoContainer .logoVanIcon img {
+    height:60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logoContainer {
+    width:300px;
+  }
+
+  .logoContainer .logoVanIcon img {
+    height:40px;
+  }
 }

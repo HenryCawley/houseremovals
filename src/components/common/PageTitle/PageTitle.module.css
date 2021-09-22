@@ -1,12 +1,12 @@
 .titleContainer {
   width:100%;
-  background-color:#F5F5F5;
 }
 
 .titleContainer h2 {
   padding-left:10%;
-  font-family:'Source Code Pro', monospace;
-  font-size:4em;
+  font-family:'Raleway';
+  font-size:2.5em;
+  text-transform: uppercase;
   margin:0;
-  padding-top:20px;
+  padding-top:50px;
 }

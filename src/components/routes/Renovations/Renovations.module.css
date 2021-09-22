@@ -1,0 +1,15 @@
+.listContainer {
+  display:flex;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: space-between;
+}
+
+.listContainer .list {
+  text-transform:uppercase;
+  color:#31525B;
+  font-size:25px;
+  line-height:10px;
+  font-weight:700;
+}

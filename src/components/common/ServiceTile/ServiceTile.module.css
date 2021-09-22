@@ -1,0 +1,30 @@
+.container {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:50px;
+}
+
+.container h2 {
+  font-size:40px;
+  margin-bottom:40px;
+  margin-top:50px;
+  font-family:Raleway;
+  font-weight:bold;
+}
+
+.container .tileContainer {
+  display:flex;
+
+}
+
+.container p {
+  font-size:21px;
+  font-family:Raleway;
+}
+
+@Media (max-width: 650px) {
+  .container .tileContainer {
+    flex-direction: column;
+  }
+}

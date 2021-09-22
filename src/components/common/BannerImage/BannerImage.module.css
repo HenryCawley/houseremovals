@@ -1,4 +1,179 @@
 .bannerContainer {
-  background-image:url('../../../assets/HouseRemovalsLondon.jpg');
+  display:flex;
+  background-image:url('../../../assets/IndustrialUnitBeforeBanner.jpg');
   width:100%;
+  background-repeat: no-repeat;
+  height:600px;
+  background-position: center;
+  background-size:cover;
+  margin-top:0px;
+  font-family:Raleway;
+}
+
+.bannerContainer .bannerTextContainer {
+  margin-left:10%;
+  width:715px;
+  background-color:hsl(0,0%,76.9%, 0.8);
+  margin-top:110px;
+  margin-bottom:150px;
+  padding:40px;
+  z-index:10;
+  position:absolute;
+}
+
+.bannerContainer .bannerTextContainer h1 {
+  font-size:80px;
+  color:#fff;
+  font-weight:700;
+  text-transform:uppercase;
+  line-height: 1px;
+  text-align:center;
+    z-index:20;
+}
+
+.bannerContainer .bannerTextContainer h2 {
+  font-size:80px;
+  color:#fff;
+  font-weight:700;
+  letter-spacing: 4px;
+  line-height: 1px;
+  padding: 10px;
+  text-transform:uppercase;
+  text-align:center;
+  z-index:20;
+}
+
+.bannerContainer .bannerTextContainer h3 {
+  font-size:80px;
+  line-height:80px;
+  color:#fff;
+  text-align: center;
+  line-height: 1px;
+  letter-spacing:4px;
+  font-weight:300;
+}
+
+@Media (max-width:1000px) {
+  .bannerContainer .bannerTextContainer {
+    width:600px;
+    margin-left:100px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:70px;
+  }
+}
+
+@Media (max-width:800px) {
+  .bannerContainer .bannerTextContainer {
+    width:500px;
+    margin-left:100px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:65px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:60px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:55px;
+  }
+}
+
+@Media (max-width:700px) {
+  .bannerContainer .bannerTextContainer {
+    width:450px;
+    margin-left:50px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:55px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:55px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:40px;
+  }
+}
+
+@Media (max-width:600px) {
+  .bannerContainer .bannerTextContainer {
+    width:400px;
+    margin-left:50px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:40px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:35px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:30px;
+  }
+}
+
+@Media (max-width:550px) {
+  .bannerContainer .bannerTextContainer {
+    width:350px;
+    margin-left:25px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:40px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:35px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:30px;
+  }
+}
+
+@Media (max-width:500px) {
+  .bannerContainer .bannerTextContainer {
+    width:350px;
+    margin-left:15px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:40px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:35px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:30px;
+  }
+}
+
+@Media (max-width:450px) {
+  .bannerContainer .bannerTextContainer {
+    width:350px;
+    margin-left:10px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:40px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:35px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:30px;
+  }
 }

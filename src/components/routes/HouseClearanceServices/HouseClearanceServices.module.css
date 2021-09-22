@@ -1,0 +1,59 @@
+.container {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:Raleway;
+  display:flex;
+  margin-bottom:50px;
+}
+
+.container .text {
+  flex:2;
+}
+
+.container .text h2 {
+  font-size:40px;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+.container .text p {
+  font-size:20px;
+}
+
+
+.container .image {
+  flex:1.2;
+  margin:0px auto auto 30px;
+}
+
+.container .image h4 {
+  text-transform:uppercase;
+  color:#31525B;
+  font-size:25px;
+  line-height:10px;
+  font-weight:700;
+}
+
+.pastProjects {
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.pastProjects h2 {
+  font-size:40px;
+}
+
+.pastProjects p {
+  font-size:20px;
+}
+
+.pastProjects .pastProjectTile {
+  display:flex;
+  justify-content:space-between;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+}
