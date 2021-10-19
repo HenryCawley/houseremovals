@@ -8,3 +8,10 @@ a {
   text-decoration: none;
   z-index:100;
 }
+
+@Media (max-width:900px) {
+  a {
+    background-color: #31525B;
+    font-size:2em;
+  }
+}

@@ -16,17 +16,17 @@ function Footer() {
         </div>
 
         <div className={classes.callback}>
-          <form className={classes.callbackRequest}>
+          <form className={classes.callbackRequest} method="POST" enctype="multipart/form-data" action="http://www.professionalhouseservices.co.uk/callbackHandler.php">
             <h2>Request a Callback</h2>
-            <input className={classes.input} type='text' placeholder='Name'/>
-            <input className={classes.input} type='text' placeholder='Phone Number'/>
-            <button className={classes.button}>Request A Callback</button>
+            <input className={classes.input} type='text' placeholder='Name' name="visitor_name" required/>
+            <input className={classes.input} placeholder='Phone Number' type="tel" name="tel_number" required/>
+            <button className={classes.button} type="submit">Request A Callback</button>
           </form>
         </div>
       </div>
 
       <div className={classes.copyright}>
-        2021 | North London Property Clearance and Renovations Ltd
+        2021 | North London Professional Property Services
       </div>
     </div>
   );

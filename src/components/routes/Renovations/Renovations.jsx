@@ -37,6 +37,9 @@ function Renovations() {
   const list1 = [];
   const list2 = [];
   const list3 = [];
+  const list4 = [];
+  const list5 = [];
+  const list6 = [];
 
   for (let i = 0; i < 7; i++) {
     list1.push(<h4>{list[i]}</h4>);
@@ -48,6 +51,18 @@ function Renovations() {
 
   for (let i = 14; i < 21; i++) {
     list3.push(<h4>{list[i]}</h4>);
+  }
+
+  for (let i = 0; i < 11; i++) {
+    list4.push(<h4>{list[i]}</h4>);
+  }
+
+  for (let i = 11; i < 21; i++) {
+    list5.push(<h4>{list[i]}</h4>);
+  }
+
+  for (let i = 0; i < 21; i++) {
+    list6.push(<h4>{list[i]}</h4>);
   }
 
   return(
@@ -67,6 +82,22 @@ function Renovations() {
 
       <div  className={classes.list}>
         {list3}
+      </div>
+    </div>
+
+    <div className={classes.listContainerTwo}>
+      <div className={classes.list}>
+        {list4}
+      </div>
+
+      <div  className={classes.list}>
+        {list5}
+      </div>
+    </div>
+
+    <div className={classes.listContainerThree}>
+      <div className={classes.list}>
+        {list6}
       </div>
     </div>
 

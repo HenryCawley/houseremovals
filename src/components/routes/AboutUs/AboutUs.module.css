@@ -5,45 +5,35 @@
   font-family:Raleway;
   display:flex;
 }
-
 .container .text {
   flex:2;
 }
-
 .container .text h2 {
   font-size:40px;
   text-transform: uppercase;
   font-weight:700;
 }
-
 .container .text p {
   font-size:20px;
 }
-
-
 .container .image {
   flex:1;
 }
-
 .container .image img {
   max-width:400px;
   margin-top:40px;
 }
-
 .pastProjects {
   width:80%;
   margin-right:auto;
   margin-left:auto;
 }
-
 .pastProjects h2 {
   font-size:40px;
 }
-
 .pastProjects p {
   font-size:20px;
 }
-
 .pastProjects .pastProjectTile {
   display:flex;
   justify-content:space-between;
@@ -51,4 +41,20 @@
   margin-left:auto;
   margin-right:auto;
   margin-bottom:30px;
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-direction:column;
+  }
+}
+@media (max-width: 850px) {
+  .pastProjects .pastProjectTile {
+    display:flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .container .image img {
+    width:90%;
+  }
 }

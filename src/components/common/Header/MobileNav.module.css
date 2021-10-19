@@ -1,6 +1,6 @@
 .cross {
   display:flex;
-  height:200px;
+  height:120px;
   align-items:center;
   justify-content:space-evenly;
 }
@@ -13,7 +13,7 @@
   position:absolute;
   margin-right:0;
   animation:crossforward;
-  animation-duration:2s;
+  animation-duration:0.2s;
   animation-iteration-count:1;
   animation-fill-mode:forwards;
 }
@@ -26,54 +26,54 @@
   position:absolute;
   margin-right:0;
   animation:crossbackward;
-  animation-duration:2s;
+  animation-duration:0.2s;
   animation-iteration-count:1;
   animation-fill-mode:forwards;
 }
 
-/*
+
 @keyframes crossforward {
   from {
     background-color:#000;
-    transform: rotate(45deg);
+    transform: rotate(225deg);
   }
   to {
     background-color:#fff;
-    transform: rotate(135deg);
-    margin-top:20px;
+    transform: rotate(180deg);
+    margin-bottom:20px;
   }
 }
 
 @keyframes crossbackward {
   from {
     background-color:#000;
-    transform: rotate(0deg);
+    transform: rotate(135deg);
   }
   to {
     background-color:#fff;
-    transform: rotate(45deg);
-    margin-bottom:25px;
+    transform: rotate(180deg);
+    margin-top:25px;
   }
 }
-*/
+
 
 @media (max-width: 700px) {
   .cross {
     display:flex;
-    height:160px;
+    height:80px;
   }
 }
 
 @media (max-width: 600px) {
   .cross {
     display:flex;
-    height:140px;
+    height:60px;
   }
 }
 
 @media (max-width: 500px) {
   .cross {
     display:flex;
-    height:120px;
+    height:40px;
   }
 }

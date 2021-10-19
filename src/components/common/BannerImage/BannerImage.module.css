@@ -1,6 +1,5 @@
 .bannerContainer {
   display:flex;
-  background-image:url('../../../assets/IndustrialUnitBeforeBanner.jpg');
   width:100%;
   background-repeat: no-repeat;
   height:600px;
@@ -8,8 +7,16 @@
   background-size:cover;
   margin-top:0px;
   font-family:Raleway;
+  animation: bannerAnimation;
+  animation-duration:10s;
+  animation-iteration-count:10;
+  animation-fill-mode:none;
 }
-
+@keyframes bannerAnimation {
+  0% {background-image:url('../../../assets/IndustrialUnitBeforeBanner.jpg');}
+  50% {background-image:url('../../../assets/gardenRoomSittingArea.jpg');}
+  100% {background-image:url('../../../assets/IndustrialUnitAfter.jpg');}
+}
 .bannerContainer .bannerTextContainer {
   margin-left:10%;
   width:715px;
@@ -20,7 +27,6 @@
   z-index:10;
   position:absolute;
 }
-
 .bannerContainer .bannerTextContainer h1 {
   font-size:80px;
   color:#fff;
@@ -30,7 +36,6 @@
   text-align:center;
     z-index:20;
 }
-
 .bannerContainer .bannerTextContainer h2 {
   font-size:80px;
   color:#fff;
@@ -42,7 +47,6 @@
   text-align:center;
   z-index:20;
 }
-
 .bannerContainer .bannerTextContainer h3 {
   font-size:80px;
   line-height:80px;
@@ -64,6 +68,12 @@
   }
 }
 
+@Media (max-width:900px) {
+  .bannerContainer {
+    background-image:url('../../../assets/gardenRoomSittingArea.jpg');
+  }
+}
+
 @Media (max-width:800px) {
   .bannerContainer .bannerTextContainer {
     width:500px;
@@ -82,7 +92,6 @@
     font-size:55px;
   }
 }
-
 @Media (max-width:700px) {
   .bannerContainer .bannerTextContainer {
     width:450px;
@@ -101,7 +110,6 @@
     font-size:40px;
   }
 }
-
 @Media (max-width:600px) {
   .bannerContainer .bannerTextContainer {
     width:400px;
@@ -120,7 +128,6 @@
     font-size:30px;
   }
 }
-
 @Media (max-width:550px) {
   .bannerContainer .bannerTextContainer {
     width:350px;
@@ -139,7 +146,6 @@
     font-size:30px;
   }
 }
-
 @Media (max-width:500px) {
   .bannerContainer .bannerTextContainer {
     width:350px;
@@ -158,10 +164,9 @@
     font-size:30px;
   }
 }
-
 @Media (max-width:450px) {
   .bannerContainer .bannerTextContainer {
-    width:350px;
+    width:300px;
     margin-left:10px;
   }
 
@@ -175,5 +180,24 @@
 
   .bannerContainer .bannerTextContainer h3 {
     font-size:30px;
+  }
+}
+@Media (max-width:400px) {
+  .bannerContainer .bannerTextContainer {
+    width:280px;
+    margin-left:20px;
+    padding:20px;
+  }
+
+  .bannerContainer .bannerTextContainer h1 {
+    font-size:25px;
+  }
+
+  .bannerContainer .bannerTextContainer h2 {
+    font-size:20px;
+  }
+
+  .bannerContainer .bannerTextContainer h3 {
+    font-size:20px;
   }
 }

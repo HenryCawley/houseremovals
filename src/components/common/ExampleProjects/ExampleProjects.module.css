@@ -8,22 +8,28 @@
   font-family:Raleway;
   margin-bottom:60px;
 }
-
 .container h3 {
   font-size:35px;
 }
-
 .container p {
   font-size:24px;
 }
-
 .container .imageContainer {
   display:flex;
   width:100%;
 }
-
 .container .imageContainer img {
   display:flex;
   width:48%;
   padding:1%;
+}
+
+@media (max-width: 1000px) {
+  .container .imageContainer {
+    flex-direction:column;
+  }
+  .container .imageContainer img {
+    width:98%;
+    margin-bottom:20px;
+  }
 }
