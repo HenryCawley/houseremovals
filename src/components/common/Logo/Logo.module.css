@@ -6,6 +6,7 @@
 
 .logoContainer .logoVanIcon img {
   height:100px;
+  width:500px;
 }
 
 
@@ -26,6 +27,7 @@
 
   .logoContainer .logoVanIcon img {
     height:60px;
+    width:300px;
   }
 }
 
@@ -36,5 +38,6 @@
 
   .logoContainer .logoVanIcon img {
     height:40px;
+    width:200px;
   }
 }

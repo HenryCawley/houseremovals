@@ -1,6 +1,6 @@
-import industrialUnitCleanImg from '../../../assets/IndustrialUnitAfter.jpg';
-import industrialUnitDirtyImg from '../../../assets/IndustrialUnitBefore.jpg';
-import gardenRoomSittingAreaImg from '../../../assets/gardenRoomSittingArea.jpg';
+import industrialUnitCleanImg from '../../../assets/IndustrialUnitAfter-600x450.webp';
+import industrialUnitDirtyImg from '../../../assets/IndustrialUnitBefore-600x450.webp';
+import gardenRoomSittingAreaImg from '../../../assets/gardenRoomSittingArea-600x450.webp';
 
 import classes from './ExampleProjects.module.css'
 

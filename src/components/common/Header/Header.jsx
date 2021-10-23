@@ -23,7 +23,7 @@ function Header() {
       <div className={classes.headerBanner}>
           <div className={classes.logo}><Logo /></div>
               <div className={classes.headerContact}>
-                <span>07768 316371</span>
+                <span>Call Us On: 07768 316371</span>
               </div>
               <div className={classes.mobileNav}>
                 {mobileNavOpen === false

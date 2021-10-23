@@ -13,9 +13,9 @@
   animation-fill-mode:none;
 }
 @keyframes bannerAnimation {
-  0% {background-image:url('../../../assets/IndustrialUnitBeforeBanner.jpg');}
-  50% {background-image:url('../../../assets/gardenRoomSittingArea.jpg');}
-  100% {background-image:url('../../../assets/IndustrialUnitAfter.jpg');}
+  0% {background-image:url('../../../assets/IndustrialUnitBefore-1200x900.webp');}
+  50% {background-image:url('../../../assets/gardenRoomSittingArea.webp');}
+  100% {background-image:url('../../../assets/IndustrialUnitAfter-1200x900.webp');}
 }
 .bannerContainer .bannerTextContainer {
   margin-left:10%;
@@ -66,11 +66,11 @@
   .bannerContainer .bannerTextContainer h3 {
     font-size:70px;
   }
-}
 
-@Media (max-width:900px) {
-  .bannerContainer {
-    background-image:url('../../../assets/gardenRoomSittingArea.jpg');
+  @keyframes bannerAnimation {
+    0% {background-image:url('../../../assets/IndustrialUnitBefore-900x675.webp');}
+    50% {background-image:url('../../../assets/gardenRoomSittingArea-900x675.webp');}
+    100% {background-image:url('../../../assets/IndustrialUnitAfter-900x675.webp');}
   }
 }
 
@@ -126,6 +126,12 @@
 
   .bannerContainer .bannerTextContainer h3 {
     font-size:30px;
+  }
+
+  @keyframes bannerAnimation {
+    0% {background-image:url('../../../assets/IndustrialUnitBefore-600x450.webp');}
+    50% {background-image:url('../../../assets/gardenRoomSittingArea-600x450.webp');}
+    100% {background-image:url('../../../assets/IndustrialUnitAfter-600x450.webp');}
   }
 }
 @Media (max-width:550px) {

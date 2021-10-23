@@ -1,7 +1,7 @@
-import lettingImg from '../../../assets/lettings.png';
-import clearancesImg from '../../../assets/clearances.png';
-import renovationsImg from '../../../assets/renovations.png';
-import preperationsImg from '../../../assets/preperationsForSale.png';
+import lettingImg from '../../../assets/lettings.webp';
+import clearancesImg from '../../../assets/clearances.webp';
+import renovationsImg from '../../../assets/renovations.webp';
+import preperationsImg from '../../../assets/preperationsForSale.webp';
 
 import classes from './Tile.module.css'
 
